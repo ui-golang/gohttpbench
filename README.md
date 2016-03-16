@@ -12,8 +12,8 @@ Installation
 2. download and build Go-HttpBench
 
 ```
-go get github.com/parkghost/gohttpbench
-go build -o gb github.com/parkghost/gohttpbench
+go get github.com/ui-golang/gohttpbench
+go build -o gb github.com/ui-golang/gohttpbench
 ```
 
 Usage
@@ -43,7 +43,7 @@ Options are:
 ### Example:
 	$ gb -c 100 -n 100000 -k http://localhost/10k.dat
 
-	This is GoHttpBench, Version 0.1.9, https://github.com/parkghost/gohttpbench
+	This is GoHttpBench, Version 0.1.9, https://github.com/ui-golang/gohttpbench
 	Author: Brandon Chen, Email: parkghost@gmail.com
 	Licensed under the MIT license
 
@@ -94,13 +94,7 @@ Options are:
 	 100%	 32 (longest request)
 
 
-Author
--------
 
-**Brandon Chen**
-
-+ http://brandonc.me
-+ http://github.com/parkghost
 
 
 License
