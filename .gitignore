@@ -1,0 +1,7 @@
+temp/
+raw/
+*.sh
+*.csv
+*.pprof
+profilingtool.go
+gb
